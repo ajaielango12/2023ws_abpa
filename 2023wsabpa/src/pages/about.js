@@ -1,5 +1,6 @@
 import { Container, Heading, Text } from "@chakra-ui/react";
 
+
 const PageAbout = () => {
   return (
     <Container minW="1000px" p={0}>

@@ -6,7 +6,7 @@ const theme = extendTheme({
       "html body": {
         fontSize: "20px",
       },
-      a: { textDecoration: "none", _hover: { color: "cyan.800" } },
+      a: { textDecoration: "none", _hover: { color: "white" } },
     },
   },
 });

@@ -12,6 +12,7 @@ import faker from 'faker';
 
 ChartJS.register(LinearScale, PointElement, LineElement, Tooltip, Legend);
 
+
 export const options = {
   scales: {
     y: {
@@ -28,13 +29,16 @@ export const data = {
         x: faker.datatype.number({ min: -100, max: 100 }),
         y: faker.datatype.number({ min: -100, max: 100 }),
       })),
-      backgroundColor: "rgba(255, 99, 132, 1)",
+      backgroundColor: "rgba(240, 99, 132, 1)",
     },
   ],
 };
+
 
 const Stats = () => {
   return <Scatter options={options} data={data} />;
 };
 
 export default Stats;
+
+
